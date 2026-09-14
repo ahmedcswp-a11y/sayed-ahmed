@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sand: #F8EDD8;
+  --color-jasmine: #ECCE83;
+  --color-charcoal: #264653;
+  --color-teal: #2A9D8F;
+  --color-peach: #E76F51;
+  --color-sandy: #F4A261;
+
+  --font-heading: 'Nunito', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #F8EDD8;
+  color: #264653;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Nunito', sans-serif;
+}
+
+.font-mono-tag {
+  font-family: 'DM Mono', monospace;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Dahab 360",
+  "description": "Official tourism directory, local marketplace, trip planner, and editorial guide for Dahab, South Sinai. Discover stays, diving, authentic dining, and real local experiences.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
